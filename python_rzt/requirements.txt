@@ -1,0 +1,7 @@
+tornado ==6.0.4
+
+tornado websocket==0.10.1
+
+mysql-connector-python==8.0.19
+
+pyahocorasick==1.4.0
