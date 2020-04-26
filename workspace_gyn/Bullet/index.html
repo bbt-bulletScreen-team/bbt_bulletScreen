@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>弹幕</title>
+    <link rel="stylesheet" href="/css/bootstrap-combined.no-icons.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.danmu.js"></script>
+    <script type="text/javascript" src="/js/danmu.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        <video width="100%" controls>
+                <source src="img/video.mp4." type="video/mp4">
+              </video>
+    </div>
+    <div class="container">
+        <div class="footer ">
+            <div class="inputtext">
+                <form class="form-inline form2">
+                    <input id="text" type="text" style="width:100px" />
+                    <input id="say" type="submit" value="发送" class="btn btn-success" />
+                </form>
+            </div>
+            <div class="status" style="float:left;margin-left:200px">
+                Websocket状态 : <span id="message"></span>
+            </div>
+            <div class="app" id="app">
+                <div id="danmu"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
